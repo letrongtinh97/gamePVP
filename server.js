@@ -9,7 +9,7 @@ const express = require('express'),
   
 // });
 app.use(express.static(__dirname + './game'));
-server.listen(55555);
+server.listen(3000);
 
 var Responses = {
     SUCCESS: 0,
